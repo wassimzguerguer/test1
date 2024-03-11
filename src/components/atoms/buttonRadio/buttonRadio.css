@@ -1,0 +1,18 @@
+.button-radio {
+    /* Vos styles pour le bouton radio ici */
+    /* Exemple : */
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style le bouton radio lui-même */
+  .button-radio input[type="radio"] {
+    /* Exemple : */
+    margin-right: 5px;
+  }
+  
+  /* Style le texte associé au bouton radio */
+  .button-radio label {
+    /* Exemple : */
+    font-size: 16px;
+  }

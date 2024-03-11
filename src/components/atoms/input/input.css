@@ -1,0 +1,16 @@
+.input-primaire {
+    background-color: red;
+    color: red;
+}
+.input-secoundery{
+    background-color: blue;
+    color: blue;
+}
+.input-tertiary{
+    background-color: green;
+    color: green;
+}
+.input-quaternary{
+    background-color: yellow;
+    color: yellow;
+}
