@@ -1,6 +1,6 @@
 import "./input.css";
 export const Input = (props) => {
-    const {required, type, id, name, onChange, placeholder, styleType} = props
+    const {required, type, id, name, onChange, placeholder, styleType,label} = props
     const  className = []
     
    
@@ -9,7 +9,7 @@ export const Input = (props) => {
           {...(type && {type})}
           {...(id && {id})}
           {...(name && {name})}
-          {...(name && {name})}
+          {...(label && {label})}
           {...(onChange && {onChange})}
           {...(placeholder && {placeholder})}
           {...(required && {required})}

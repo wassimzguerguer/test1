@@ -1,5 +1,12 @@
-import { Input, Button, Checkbox ,ButtonRadio,ButtonUpload} from "./components/atoms";
+import { Input, Button, Checkbox ,ButtonRadio,ButtonUploader} from "./components/atoms";
+import React, { useState } from 'react';
 function App() {
+  const [fileName, setFileName] = useState('');
+
+  const handleFile = (file) => {
+    
+    setFileName(file.name);
+  };
   return (
     <div>
       <div>
@@ -39,13 +46,14 @@ function App() {
        
        />
       </div>
+      
       <div>
-        <ButtonUpload
+      {fileName && <p>Nom du fichier : {fileName}</p>}
+        <ButtonUploader
         id="button-upload"
         name="button-upload"
-        onChange={(e) => console.log(e.target.value)}
-        styleType="button-upload"
-        label="upload file"
+        handleFile={handleFile}
+        
         />
       </div>
     

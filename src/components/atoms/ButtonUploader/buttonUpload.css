@@ -1,25 +1,17 @@
 /* buttonUpload.css */
 .button-upload {
-    /* Vos styles pour la zone de téléchargement ici */
-    /* Exemple : */
+   
     position: relative;
     display: inline-block;
     cursor: pointer;
-  }
-  
-  /* Style l'indicateur "Drop here" lors du glisser-déposer */
-  .button-upload.dragging .drag-indicator {
-    /* Exemple : */
     background-color: #f0f0f0;
     border: 2px dashed #999;
     color: #999;
-  }
-  
-  /* Style le texte du bouton de téléchargement */
-  .upload-label {
-    /* Exemple : */
     font-size: 14px;
   }
+  
+  
+
   
   /* Style l'indicateur "Drop here" */
   .drag-indicator {

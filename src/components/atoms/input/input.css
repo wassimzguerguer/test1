@@ -14,3 +14,16 @@
     background-color: yellow;
     color: yellow;
 }
+.input_display{
+    display:'none'
+}
+.button-upload {
+   
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 2px dashed #999;
+    color: #999;
+    font-size: 14px;
+  }
